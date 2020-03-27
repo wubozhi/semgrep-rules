@@ -15,3 +15,11 @@ while True:
         break
     except Exception:
         pass
+
+
+# ok
+while True:
+    if condition:
+        return
+    do_something
+
