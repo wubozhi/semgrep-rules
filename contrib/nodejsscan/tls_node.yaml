@@ -1,5 +1,6 @@
 rules:
   - id: node_tls_reject
+    rule-id: NODEJS-0063
     patterns:
       - pattern-either:
           - pattern: |
@@ -16,6 +17,7 @@ rules:
       owasp: "A6: Security Misconfiguration"
       cwe: "CWE-295: Improper Certificate Validation"
   - id: node_curl_ssl_verify_disable
+    rule-id: NODEJS-0064
     patterns:
       - pattern: |
           $X(..., {SSL_VERIFYPEER : 0}, ...)

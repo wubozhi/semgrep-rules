@@ -1,6 +1,7 @@
 # Convert this to INFO when semgrep supports that
 rules:
   - id: helmet_header_check_csp
+    rule-id: NODEJS-0046
     message: >-
       Content Security Policy header is present. More Information:
       https://helmetjs.github.io/docs/csp/
@@ -23,6 +24,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_check_crossdomain
+    rule-id: NODEJS-0047
     message: >-
       X-Permitted-Cross-Domain-Policies header set to off. More information:
       https://helmetjs.github.io/docs/crossdomain/
@@ -49,6 +51,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_check_expect_ct
+    rule-id: NODEJS-0048
     message: >-
       Expect-CT header is present. More information:
       https://helmetjs.github.io/docs/expect-ct/
@@ -75,6 +78,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_feature_policy
+    rule-id: NODEJS-0049
     message: >-
       Feature-Policy header is present. More information:
       https://helmetjs.github.io/docs/feature-policy/
@@ -97,6 +101,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_frame_guard
+    rule-id: NODEJS-0050
     message: >-
       X-Frame-Options header is present. More information:
       https://helmetjs.github.io/docs/frameguard/
@@ -121,6 +126,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_dns_prefetch
+    rule-id: NODEJS-0051
     message: >-
       X-DNS-Prefetch-Control header is present and DNS Prefetch Control is
       enabled. More information:
@@ -150,6 +156,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_x_powered_by
+    rule-id: NODEJS-0052
     message: >-
       Default X-Powered-By is removed or modified. More information:
       https://helmetjs.github.io/docs/hide-powered-by/
@@ -176,6 +183,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_hsts
+    rule-id: NODEJS-0053
     message: >-
       HSTS header is present. More information:
       https://helmetjs.github.io/docs/hsts/
@@ -200,6 +208,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_ienoopen
+    rule-id: NODEJS-0054
     message: >-
       X-Download-Options header is present. More information:
       https://helmetjs.github.io/docs/ienoopen/
@@ -224,6 +233,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_nosniff
+    rule-id: NODEJS-0055
     message: >-
       Content-Type-Options header is present. More information:
       https://helmetjs.github.io/docs/dont-sniff-mimetype/
@@ -248,6 +258,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_referrer_policy
+    rule-id: NODEJS-0056
     message: >-
       Referrer-Policy header is present. More information:
       https://helmetjs.github.io/docs/referrer-policy/
@@ -270,6 +281,7 @@ rules:
         - node.js
         - express
   - id: helmet_header_xss_filter
+    rule-id: NODEJS-0057
     message: >-
       X-XSS-Protection header is present. More information:
       https://helmetjs.github.io/docs/xss-filter/

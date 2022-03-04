@@ -1,5 +1,6 @@
 rules:
   - id: express_open_redirect
+    rule-id: NODEJS-0061
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}
@@ -31,6 +32,7 @@ rules:
       cwe: >-
         CWE-601: URL Redirection to Untrusted Site ('Open Redirect')
   - id: express_open_redirect2
+    rule-id: NODEJS-0062
     patterns:
       - pattern-inside: |
           $APP.$METHOD(..., function $FUNC($REQ, $RES) { ... })

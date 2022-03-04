@@ -1,5 +1,6 @@
 rules:
   - id: node_md5
+    rule-id: NODEJS-0098
     patterns:
       - pattern: |
           $X.createHash("md5")
@@ -16,6 +17,7 @@ rules:
       technology:
         - node.js
   - id: node_sha1
+    rule-id: NODEJS-0099
     patterns:
       - pattern: |
           $X.createHash("sha1")
@@ -32,6 +34,7 @@ rules:
       technology:
         - node.js
   - id: node_aes_ecb
+    rule-id: NODEJS-0100
     patterns:
       - pattern-either:
           - pattern: |
@@ -51,6 +54,7 @@ rules:
       technology:
         - node.js
   - id: node_weak_crypto
+    rule-id: NODEJS-0101
     patterns:
       - pattern-either:
           - pattern: |
@@ -68,6 +72,7 @@ rules:
       technology:
         - node.js
   - id: node_insecure_random_generator
+    rule-id: NODEJS-0102
     patterns:
       - pattern-either:
           - pattern: |

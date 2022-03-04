@@ -1,5 +1,6 @@
 rules:
   - id: serializetojs_deserialize
+    rule-id: NODEJS-0104
     patterns:
       - pattern-inside: |
           require('serialize-to-js');
@@ -19,6 +20,7 @@ rules:
       technology:
         - node.js
   - id: node_deserialize
+    rule-id: NODEJS-0105
     patterns:
       - pattern-inside: |
           require('node-serialize');

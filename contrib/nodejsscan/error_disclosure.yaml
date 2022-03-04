@@ -1,5 +1,6 @@
 rules:
   - id: node_error_disclosure
+    rule-id: NODEJS-0009
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}
@@ -33,6 +34,7 @@ rules:
       technology:
         - node.js
   - id: generic_error_disclosure
+    rule-id: NODEJS-0010
     patterns:
       - pattern-either:
           - pattern: |

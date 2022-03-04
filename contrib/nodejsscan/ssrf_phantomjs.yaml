@@ -1,5 +1,6 @@
 rules:
   - id: phantom_ssrf
+    rule-id: NODEJS-0039
     patterns:
       - pattern-inside: |
           require('phantom');

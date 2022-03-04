@@ -1,5 +1,6 @@
 rules:
   - id: hardcoded_passport_secret
+    rule-id: NODEJS-0015
     pattern-either:
       - pattern: |
           $F = require("passport-auth0").Strategy;

@@ -1,5 +1,6 @@
 rules:
   - id: buffer_noassert
+    rule-id: NODEJS-0038
     pattern-either:
       - pattern: $OBJ.readUInt8(..., true)
       - pattern: $OBJ.readUInt16LE(..., true)

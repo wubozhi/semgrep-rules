@@ -1,5 +1,6 @@
 rules:
   - id: rate_limit_control
+    rule-id: NODEJS-0025
     patterns:
       - pattern-either:
           - pattern: require("express-rate-limit");

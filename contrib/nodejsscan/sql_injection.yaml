@@ -1,5 +1,6 @@
 rules:
   - id: node_sqli_injection
+    rule-id: NODEJS-0096
     patterns:
       - pattern-either:
           - pattern: |

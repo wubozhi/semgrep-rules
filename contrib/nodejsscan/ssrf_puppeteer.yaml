@@ -1,5 +1,6 @@
 rules:
   - id: puppeteer_ssrf
+    rule-id: NODEJS-0103
     patterns:
       - pattern-inside: |
           require('puppeteer');

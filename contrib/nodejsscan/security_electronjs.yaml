@@ -1,5 +1,6 @@
 rules:
   - id: electron_disable_websecurity
+    rule-id: NODEJS-0019
     patterns:
       - pattern-either:
           - pattern: |
@@ -19,6 +20,7 @@ rules:
       technology:
         - electron
   - id: electron_allow_http
+    rule-id: NODEJS-0020
     patterns:
       - pattern-either:
           - pattern: >
@@ -39,6 +41,7 @@ rules:
       technology:
         - electron
   - id: electron_blink_integration
+    rule-id: NODEJS-0021
     patterns:
       - pattern-either:
           - pattern: |
@@ -58,6 +61,7 @@ rules:
       technology:
         - electron
   - id: electron_nodejs_integration
+    rule-id: NODEJS-0022
     patterns:
       - pattern-either:
           - pattern: |
@@ -78,6 +82,7 @@ rules:
       technology:
         - electron
   - id: electron_context_isolation
+    rule-id: NODEJS-0023
     patterns:
       - pattern-either:
           - pattern: |
@@ -97,6 +102,7 @@ rules:
       technology:
         - electron
   - id: electron_experimental_features
+    rule-id: NODEJS-0024
     patterns:
       - pattern-either:
           - pattern: |

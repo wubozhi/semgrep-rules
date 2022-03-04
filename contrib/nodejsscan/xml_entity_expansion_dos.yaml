@@ -1,5 +1,6 @@
 rules:
   - id: node_entity_expansion
+    rule-id: NODEJS-0028
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

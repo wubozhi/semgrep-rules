@@ -1,5 +1,6 @@
 rules:
   - id: xxe_sax
+    rule-id: NODEJS-0086
     pattern-either:
       - pattern: |
           require('sax');

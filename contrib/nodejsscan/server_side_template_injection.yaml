@@ -1,5 +1,6 @@
 rules:
   - id: server_side_template_injection
+    rule-id: NODEJS-0059
     patterns:
       - pattern-either:
           - pattern-inside: |

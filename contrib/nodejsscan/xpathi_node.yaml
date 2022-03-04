@@ -1,5 +1,6 @@
 rules:
   - id: node_xpath_injection
+    rule-id: NODEJS-0041
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

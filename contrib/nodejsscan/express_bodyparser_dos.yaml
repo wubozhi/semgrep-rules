@@ -1,5 +1,6 @@
 rules:
   - id: express_bodyparser
+    rule-id: NODEJS-0095
     patterns:
       - pattern-inside: $APP = express(); ...
       - pattern-inside: |

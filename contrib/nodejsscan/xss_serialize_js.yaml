@@ -1,5 +1,6 @@
 rules:
   - id: xss_serialize_javascript
+    rule-id: NODEJS-0043
     patterns:
       - pattern-inside: |
           ...

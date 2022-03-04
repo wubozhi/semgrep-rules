@@ -1,5 +1,6 @@
 rules:
   - id: xxe_xml2json
+    rule-id: NODEJS-0076
     patterns:
       - pattern-inside: |
           require('xml2json');

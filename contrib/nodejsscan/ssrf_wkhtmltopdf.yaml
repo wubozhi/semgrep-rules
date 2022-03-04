@@ -1,5 +1,6 @@
 rules:
   - id: wkhtmltopdf_ssrf
+    rule-id: NODEJS-0040
     patterns:
       - pattern-inside: |
           require('wkhtmltopdf');

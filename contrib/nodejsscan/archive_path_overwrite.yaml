@@ -1,5 +1,6 @@
 rules:
   - id: zip_path_overwrite
+    rule-id: NODEJS-0011
     patterns:
       - pattern-either:
           - pattern-inside: |
@@ -43,6 +44,7 @@ rules:
       technology:
         - node.js
   - id: zip_path_overwrite2
+    rule-id: NODEJS-0012
     patterns:
       - pattern-either:
           - pattern-inside: |
@@ -84,6 +86,7 @@ rules:
       technology:
         - node.js
   - id: admzip_path_overwrite
+    rule-id: NODEJS-0013
     patterns:
       - pattern-inside: |
           $X = require('adm-zip');
@@ -120,6 +123,7 @@ rules:
       technology:
         - node.js
   - id: tar_path_overwrite
+    rule-id: NODEJS-0014
     patterns:
       - pattern-inside: |
           $X = require('tar-stream');

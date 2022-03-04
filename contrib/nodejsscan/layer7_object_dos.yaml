@@ -1,5 +1,6 @@
 rules:
   - id: layer7_object_dos
+    rule-id: NODEJS-0042
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

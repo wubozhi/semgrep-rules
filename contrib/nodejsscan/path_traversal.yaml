@@ -1,5 +1,6 @@
 rules:
   - id: generic_path_traversal
+    rule-id: NODEJS-0068
     patterns:
       - pattern-either:
           - pattern-inside: |

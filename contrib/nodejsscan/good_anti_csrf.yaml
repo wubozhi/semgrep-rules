@@ -1,5 +1,6 @@
 rules:
   - id: anti_csrf_control
+    rule-id: NODEJS-0090
     patterns:
       - pattern-inside: |
           $CSRUF = require('csurf');

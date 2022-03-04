@@ -1,5 +1,6 @@
 rules:
   - id: node_nosqli_js_injection
+    rule-id: NODEJS-0007
     patterns:
       - pattern-either:
           - pattern: |

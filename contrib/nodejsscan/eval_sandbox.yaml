@@ -1,5 +1,6 @@
 rules:
   - id: sandbox_code_injection
+    rule-id: NODEJS-0001
     patterns:
       - pattern-inside: |
           require('sandbox');

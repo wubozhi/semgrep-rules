@@ -1,5 +1,6 @@
 rules:
   - id: vm2_code_injection
+    rule-id: NODEJS-0074
     patterns:
       - pattern-inside: |
           require('vm2');
@@ -63,6 +64,7 @@ rules:
         - node.js
         - express
   - id: vm2_context_injection
+    rule-id: NODEJS-0075
     patterns:
       - pattern-inside: |
           require('vm2');

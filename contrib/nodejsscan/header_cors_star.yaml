@@ -1,6 +1,7 @@
 # Need QA + sgrep bug fix + false positive in generic_2 and {"=~/[Access-Control-Allow-Origin|access-control-allow-origin]/": '*' } not working
 rules:
   - id: generic_cors
+    rule-id: NODEJS-0087
     patterns:
       - pattern: |
           $APP.options('*', cors(...))
@@ -18,6 +19,7 @@ rules:
         - node.js
         - express
   - id: express_cors
+    rule-id: NODEJS-0088
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

@@ -1,5 +1,6 @@
 rules:
   - id: regex_injection_dos
+    rule-id: NODEJS-0027
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

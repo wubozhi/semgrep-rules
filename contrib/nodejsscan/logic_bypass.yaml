@@ -1,5 +1,6 @@
 rules:
   - id: node_logic_bypass
+    rule-id: NODEJS-0089
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

@@ -1,5 +1,6 @@
 rules:
   - id: join_resolve_path_traversal
+    rule-id: NODEJS-0079
     patterns:
       - pattern-inside: |
           require('path');

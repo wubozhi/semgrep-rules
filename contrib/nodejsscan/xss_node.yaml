@@ -1,5 +1,6 @@
 rules:
   - id: express_xss
+    rule-id: NODEJS-0094
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

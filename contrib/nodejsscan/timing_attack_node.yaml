@@ -1,6 +1,7 @@
 # Rule inspired from: https://github.com/nodesecurity/eslint-plugin-security/blob/master/rules/detect-possible-timing-attacks.js
 rules:
   - id: node_timing_attack
+    rule-id: NODEJS-0066
     patterns:
       - pattern-not: if ($Z == null) { ... };
       - pattern-not: if ($Z === null) { ... };

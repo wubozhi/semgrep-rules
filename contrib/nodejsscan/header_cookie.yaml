@@ -1,5 +1,6 @@
 rules:
   - id: cookie_session_default
+    rule-id: NODEJS-0030
     patterns:
       - pattern-either:
           - pattern-inside: |
@@ -34,6 +35,7 @@ rules:
         - node.js
         - express
   - id: cookie_session_no_secure
+    rule-id: NODEJS-0031
     patterns:
       - pattern-either:
           - pattern-inside: |
@@ -86,6 +88,7 @@ rules:
         - node.js
         - express
   - id: cookie_session_no_samesite
+    rule-id: NODEJS-0032
     patterns:
       - pattern-either:
           - pattern-inside: |
@@ -169,6 +172,7 @@ rules:
         - node.js
         - express
   - id: cookie_session_no_httponly
+    rule-id: NODEJS-0033
     patterns:
       - pattern-either:
           - pattern-inside: |
@@ -222,6 +226,7 @@ rules:
         - node.js
         - express
   - id: cookie_session_no_domain
+    rule-id: NODEJS-0034
     patterns:
       - pattern-either:
           - pattern-inside: |
@@ -276,6 +281,7 @@ rules:
         - node.js
         - express
   - id: cookie_session_no_path
+    rule-id: NODEJS-0035
     patterns:
       - pattern-either:
           - pattern-inside: |
@@ -329,6 +335,7 @@ rules:
         - node.js
         - express
   - id: cookie_session_no_expires
+    rule-id: NODEJS-0036
     patterns:
       - pattern-either:
           - pattern-inside: |

@@ -1,5 +1,6 @@
 rules:
   - id: handlebars_safestring
+    rule-id: NODEJS-0071
     pattern-either:
       - pattern: $X.SafeString(...)
       - pattern: new Handlebars.SafeString(...)
@@ -18,6 +19,7 @@ rules:
       technology:
         - node.js
   - id: handlebars_noescape
+    rule-id: NODEJS-0072
     patterns:
       - pattern: |
           $X.compile(..., {noEscape: true}, ...)
@@ -36,6 +38,7 @@ rules:
       technology:
         - node.js
   - id: squirrelly_autoescape
+    rule-id: NODEJS-0073
     pattern: $X.autoEscaping(false)
     message: >-
       Handlebars SafeString will not escape the data passed through it.

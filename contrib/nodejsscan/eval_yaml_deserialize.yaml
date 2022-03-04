@@ -1,5 +1,6 @@
 rules:
   - id: yaml_deserialize
+    rule-id: NODEJS-0058
     patterns:
       - pattern-inside: |
           require('js-yaml');

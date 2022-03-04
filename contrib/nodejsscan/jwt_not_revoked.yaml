@@ -1,5 +1,6 @@
 rules:
   - id: jwt_not_revoked
+    rule-id: NODEJS-0092
     patterns:
       - pattern-inside: |
           $JWT = require('express-jwt');

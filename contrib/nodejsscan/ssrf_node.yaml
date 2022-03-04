@@ -1,5 +1,6 @@
 rules:
   - id: node_ssrf
+    rule-id: NODEJS-0085
     patterns:
       - pattern-either:
           - pattern-inside: |

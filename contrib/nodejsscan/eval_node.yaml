@@ -1,5 +1,6 @@
 rules:
   - id: eval_nodejs
+    rule-id: NODEJS-0067
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

@@ -1,5 +1,6 @@
 rules:
   - id: grpc_insecure_connection
+    rule-id: NODEJS-0091
     patterns:
       - pattern-inside: |
           require('grpc');

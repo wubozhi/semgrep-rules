@@ -1,5 +1,6 @@
 rules:
   - id: xss_disable_mustache_escape
+    rule-id: NODEJS-0002
     pattern: $OBJ.escapeMarkup = false
     severity: WARNING
     languages:

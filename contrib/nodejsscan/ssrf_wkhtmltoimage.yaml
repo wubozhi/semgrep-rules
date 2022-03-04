@@ -1,5 +1,6 @@
 rules:
   - id: wkhtmltoimage_ssrf
+    rule-id: NODEJS-0069
     patterns:
       - pattern-inside: |
           require('wkhtmltoimage');

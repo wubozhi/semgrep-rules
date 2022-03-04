@@ -1,5 +1,6 @@
 rules:
   - id: helmet_feature_disabled
+    rule-id: NODEJS-0093
     patterns:
       - pattern-either:
           - pattern: |

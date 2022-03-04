@@ -1,5 +1,6 @@
 rules:
   - id: host_header_injection
+    rule-id: NODEJS-0070
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

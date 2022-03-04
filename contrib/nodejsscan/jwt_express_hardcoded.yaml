@@ -1,5 +1,6 @@
 rules:
   - id: jwt_express_hardcoded
+    rule-id: NODEJS-0106
     patterns:
       - pattern-inside: |
           $JWT = require('express-jwt');

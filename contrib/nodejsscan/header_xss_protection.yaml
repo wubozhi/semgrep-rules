@@ -1,5 +1,6 @@
 rules:
   - id: header_xss_lusca
+    rule-id: NODEJS-0044
     patterns:
       - pattern-inside: |
           $X = require('lusca');
@@ -25,6 +26,7 @@ rules:
         - node.js
         - express
   - id: header_xss_generic
+    rule-id: NODEJS-0045
     patterns:
       - pattern-either:
           - pattern-inside: function ($REQ, $RES, ...) {...}

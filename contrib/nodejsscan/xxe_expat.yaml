@@ -1,5 +1,6 @@
 rules:
   - id: xxe_expat
+    rule-id: NODEJS-0017
     patterns:
       - pattern-inside: |
           require('node-expat');

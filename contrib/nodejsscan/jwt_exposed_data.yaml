@@ -1,5 +1,6 @@
 rules:
   - id: jwt_exposed_data
+    rule-id: NODEJS-0037
     patterns:
       - pattern-inside: |
           ...

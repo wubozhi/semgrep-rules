@@ -1,5 +1,6 @@
 rules:
   - id: generic_os_command_exec
+    rule-id: NODEJS-0029
     patterns:
       - pattern-inside: |
           require('child_process');
